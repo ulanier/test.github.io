@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+/*	border-style: solid;
+	border-color: red;
+	border-width: 1px;*/
+}
+
+body{
+	background-color: #F2F2F2;
+	background-image: url("pattern2.png");
+	background-size: 50%;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(inter.ttf);
+}
+
+@font-face {
+  font-family: Hanson;
+  src: url(Hanson-Bold.ttf);
+}
+
+#nav{
+	width: 100%;
+	height: 50px;
+	border-style: solid;
+	background-color: #FFC956;
+	border-color: #0D0C0B;
+	border-width: 0px 0px 2px 0px;
+
+	padding-left: 50px;
+	font-family: "Inter";
+	vertical-align: middle;
+}
+
+#nav div{
+	display: inline-block;
+	padding:10px;
+	padding-top: 11x;
+	vertical-align: middle;
+
+}
+
+#nav div a{
+	font-size: 20px;
+	color:#0D0C0B;
+	text-decoration: none;
+}
+
+#nav div img{
+	width: 50px;
+}
+
+
+#main_container{
+/*	border-style: solid;
+	border-color: #0D0C0B;
+	border-width: 0px 1px 0px 1px;*/
+
+}
+#logohead{
+	width: 100%;
+	background-color: #F2F2F2;
+	border-style: solid;
+	border-color: #0D0C0B;
+	border-width: 0px 0px 1px 0px;
+	margin-bottom: 50px;
+}
+#brandlogo{
+	width: 35%;
+	margin: auto;
+}
+#brandlogo img{
+	width: 100%;
+}
+
+
+.photobox{
+	background-color: #F2F2F2;
+	margin: auto;
+	width: 60%;
+	padding: 10px;
+	border-style: solid;
+	border-color: #0D0C0B;
+	border-width: 1px;
+	margin-bottom: 50px;
+}
+
+.photobox .photocomp div{
+	display: inline-block;
+	vertical-align: middle;
+}
+.photobox .photocomp p{
+	font-family: Hanson;
+	font-size: 30px;
+	text-align: left;
+	padding-bottom: 10px;
+	color:#0D0C0B;
+	display: inline-block;
+	vertical-align: middle;
+
+}
+
+.photobox .photocomp img{
+	width: 45px;
+	margin-right: 15px;
+}
+
+.photobox .photo img{
+	width: 100%;
+	margin: auto;
+	border-style: solid;
+	border-color: #FFC956;
+	border-width: 2px;
+}
+
+.descrepsyun{
+    padding: 0px 5px 5px 5px;	
+}
+
+.descrepsyun .title{
+	width: 100%;
+	font-family: Inter;
+	font-size: 25px;
+}
+.descrepsyun .desText{
+	width: 100%;
+	font-family: Inter;
+	font-size: 13px;
+	padding-left: 10px;
+}
+
+#footer{
+	width: 100%;
+	background-color:#0D0C0B ;
+/*	height: 250px;*/
+	color: #f2f2f2;
+	padding: 20px;
+	display: inline-block;
+}
+
+#footer #imgcontainer{
+	width: 35%;
+	float: left;
+}
+
+#footer #imgcontainer img{
+	width: 100%;
+}
+
+#footer #text{
+	float: right;
+	padding-right: 50px;
+	font-family: inter;
+	font-size: 17px;
+	text-align: right;
+}
+
+#footer #text a{
+	padding: 15px;
+	color: #f2f2f2;
+}
